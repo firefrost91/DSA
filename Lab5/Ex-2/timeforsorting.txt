@@ -1,0 +1,21 @@
+Sorted 10 structuress in 0.080000 milliseconds.
+Sorted 100 structures in 0.148000 milliseconds.
+Sorted 1000 structures in 12.260000 milliseconds.
+Sorted 10000 structures in 148.913000 milliseconds.
+Sorted 100000 structures in 1873.954000 milliseconds.
+Sorted 1000000 structures in 20334.702000 milliseconds.
+Sorted 10000000 structures in 225699.776000 milliseconds.
+
+
+
+For Graph - 
+Sorted 10 structures in 0.046000 milliseconds.
+Sorted 20 structures in 0.102000 milliseconds.
+Sorted 30 structures in 0.111000 milliseconds.
+Sorted 40 structures in 0.120000 milliseconds.
+Sorted 50 structures in 0.134000 milliseconds.
+Sorted 60 structures in 0.202000 milliseconds.
+Sorted 70 structures in 0.204000 milliseconds.
+Sorted 80 structures in 0.251000 milliseconds.
+Sorted 90 structures in 0.276000 milliseconds.
+Sorted 100 structures in 0.324000 milliseconds.
