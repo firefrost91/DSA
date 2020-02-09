@@ -1,7 +1,8 @@
 # Data Structures and Algorithms in C 
 Index
 ---------------------------------------
-</t>1.Lab-5 </t> Data Structures and Algorithms (BITS Pilani)
+1.Lab-5 </t> Data Structures and Algorithms (BITS Pilani)
 
 2. Implementation of Queue using two stacks 
 
+3.Implementation of Queue ADT using array ( enqueue , dequeue , front , create , last operations)
