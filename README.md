@@ -3,7 +3,7 @@ Index
 ---------------------------------------
 1.Lab-5 </t> Data Structures and Algorithms (BITS Pilani)
 
-2. Insertion Sort 
+2.Insertion Sort 
 
 3.Iterative Merge sort 
 
