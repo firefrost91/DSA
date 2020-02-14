@@ -3,19 +3,21 @@ Index
 ---------------------------------------
 1.Lab-5 </t> Data Structures and Algorithms (BITS Pilani)
 
-2.Creating Linked list and inserting element at any given index 
+2.Bubble sort in Linked list and check_sort in Linked list
 
-3.Insertion Sort 
+3.Creating Linked list and inserting element at any given index 
 
-4.Iterative Merge sort 
+4.Insertion Sort 
 
-5.Merging two sorted subarrays and store them again in the same Array 
+5.Iterative Merge sort 
 
-6.Merging two sorted Arrays in a single sorted array 
+6.Merging two sorted subarrays and store them again in the same Array 
 
-7.Implementation of Queue ADT using array ( enqueue , dequeue , front , create , last operations)
+7.Merging two sorted Arrays in a single sorted array 
 
-8.Implementation of Queue using two stacks 
+8.Implementation of Queue ADT using array ( enqueue , dequeue , front , create , last operations)
 
-9.Recursive Merge sort 
+9.Implementation of Queue using two stacks 
+
+10.Recursive Merge sort 
 
