@@ -19,6 +19,8 @@ Index
 
 9.Implementation of Queue using two stacks 
 
-10.Recursive Merge sort 
+10.Implementation of Recursive Binary search 
 
-11.Implementation of Stack ADT ( push . pop , display , create operations ) 
+11.Recursive Merge sort 
+
+12.Implementation of Stack ADT ( push . pop , display , create operations ) 
