@@ -1,26 +1,28 @@
 # Data Structures and Algorithms in C 
 Index
 ---------------------------------------
-1.Lab-5 </t> Data Structures and Algorithms (BITS Pilani)
+0.Lab-5 </t> Data Structures and Algorithms (BITS Pilani)
 
-2.Bubble sort in Linked list and check_sort in Linked list
+01.Bubble sort in Linked list and check_sort in Linked list
 
-3.Creating Linked list and inserting element at any given index 
+02.Creating Linked list and inserting element at any given index 
 
-4.Insertion Sort 
+03.Insertion Sort 
 
-5.Iterative Merge sort 
+04.Iterative Merge sort 
 
-6.Merging two sorted subarrays and store them again in the same Array 
+05.Merging two sorted subarrays and store them again in the same Array 
 
-7.Merging two sorted Arrays in a single sorted array 
+06.Merging two sorted Arrays in a single sorted array 
 
-8.Implementation of Queue ADT using array ( enqueue , dequeue , front , create , last operations)
+07.Implementation of Queue ADT using array ( enqueue , dequeue , front , create , last operations)
 
-9.Implementation of Queue using two stacks 
+08.Implementation of Queue using two stacks 
 
-10.Implementation of Recursive Binary search 
+09.Implementation of Recursive Binary search 
 
-11.Recursive Merge sort 
+10.Recursive Merge sort 
 
-12.Implementation of Stack ADT ( push . pop , display , create operations ) 
+11.Implementation of Stack ADT ( push . pop , display , create operations ) 
+
+12. Implementation of Iterative Binary Search
