@@ -25,4 +25,4 @@ Index
 
 11.Implementation of Stack ADT ( push . pop , display , create operations ) 
 
-12. Implementation of Iterative Binary Search
+12.Implementation of Iterative Binary Search
