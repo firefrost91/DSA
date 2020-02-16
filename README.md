@@ -36,3 +36,5 @@ Index
 16.Merging two sorted Linked lists in a single sorted  linked list 
 
 17.Merging two unsorted Linked lists in  a single sorted linked list 
+
+18.Iterative and Recursive methods to measure the size of linked list 
