@@ -44,3 +44,5 @@ Index
 20.Reversing a singly linked list 
 
 21.To check if Linked list is palindrome or not 
+
+22.To find nth Node from end in a Linked list 
