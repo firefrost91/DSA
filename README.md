@@ -42,3 +42,5 @@ Index
 19.Iterative and Recursive search methods in Linked list 
 
 20.Reversing a singly linked list 
+
+21.To check if Linked list is palindrome or not 
