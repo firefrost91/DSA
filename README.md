@@ -28,3 +28,5 @@ Index
 12.Implementation of Iterative Binary Search
 
 13.Insertion in Circular linked list ( at end  , at first , at any index ) 
+
+14.Insertion in Doubly linked list (at end , at first , at any index ) 
