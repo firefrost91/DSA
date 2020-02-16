@@ -1,53 +1,68 @@
 #include<stdio.h>
 #include<stdlib.h>
-static int size = 0 ;
-struct Node {
-    int data ;
-    struct Node * next
-};
-struct Node* insert(int x , struct Node* first ){
-    int i ; 
-    struct Node* temp ; 
-    temp=(struct Node*)malloc(sizeof(struct Node)); 
-    temp->data = x ;
-    temp->next=NULL ; 
-    temp->next=first ;
-    first=temp ;
-    size++ ;
-    return first ;
+struct node{
+    int data ; 
+    struct node* next ; 
+}; 
+struct node* add_to_empty (int x){
+   struct node* temp ;
+   temp=(struct node*)malloc(sizeof(struct node)); 
+   temp->data=x ;
+   temp->next=NULL ;
+   return temp ; 
 }
-struct Node* insert_index(int x , struct Node* first , int index ){
- int i ; 
-    if(index>size+1){
-        printf("Invalid Index  \n"); 
-        return first ;
+struct node* add_at_first (struct node* first , int x){
+    struct node * temp ; 
+    temp=(struct node* )malloc(sizeof(struct node)); 
+    if(first==NULL){
+        temp=add_to_empty(x);
+        return temp ; 
     }
-    struct Node* temp , *t2 , *t1 ; 
-    temp=(struct Node*)malloc(sizeof(struct Node));
-    temp->data=x ;
+    temp->data=x ; 
+    temp->next=first ; 
+    first = temp ; 
+    return first ; 
+} 
+struct node* add_at_last ( struct node* first , int x){
+    struct node* temp , *p ; 
+    temp=(struct node*)malloc(sizeof(struct node)); 
+    if(first==NULL){
+        temp=add_to_empty(x);
+        return temp ; 
+    }
+    temp->data= x ;
+    p=first ; 
+    while(p->next!=NULL){
+        p=p->next ; 
+    }
+    p->next=temp ; 
     temp->next=NULL ; 
-    t2=first ;
-    t1=t2->next ; 
-    for(i=1 ; i < index-1 ; i ++){
-    t2=t1 ;
-    t1=t1->next ; 
-    }
-    temp->next = t1 ;
-    t2->next=temp ;
-    size++ ;
-    return first ;
+    return first ; 
 }
-void display(struct Node* first){
- struct Node* p ;
+struct node* add_at_index(struct node* first , int index , int x  ){
+ struct node* temp, *p , *q  ;
  p=first ; 
+ int i=0  ; 
+ temp=(struct node*)malloc(sizeof(struct node));
+ if(first==NULL){
+        temp=add_to_empty(x);
+        return temp ; 
+    }
+ temp->data=x ; 
  while(p!=NULL){
-     printf("%d " , p->data); 
+    i++;
+     q=p->next ; 
+     if(i==index){
+         temp->next = q; 
+         p->next=temp ; 
+         return first ; 
+     }
      p=p->next ; 
  }
- printf("\n"); 
- }
-struct Node* sort(struct Node *first ){
-    struct Node*p , *q; 
+ return first ; 
+}
+struct node* sort(struct node *first ){
+    struct node*p , *q; 
     int x ;
     p=first ;
     while(p->next!=NULL){
@@ -64,9 +79,8 @@ struct Node* sort(struct Node *first ){
      
     return first ; 
 }
-
-int checkSort(struct Node* first){
-    struct Node*p , *q ; 
+int checkSort(struct node* first){
+    struct node*p , *q ; 
     p=first ;
     while(p->next!=NULL){
         q=p->next;
@@ -80,21 +94,32 @@ int checkSort(struct Node* first){
     }
     return 1 ;
 }
-
-int main(){
-struct Node* first ;
-// first=create(3); 
-first = insert(3 , first );
-first = insert(2 , first );
-first = insert(5 , first );
-first =insert_index(0 , first ,3 );
-first =insert_index(9 , first ,5 );
-display(first); 
-int x = checkSort(first);
-printf("%d \n" ,x);
-first = sort(first); 
-display(first);
- x = checkSort(first);
-printf("%d \n" ,x); 
+void display(struct node* first){
+    struct node* p = first ; 
+    while(p!=NULL){
+        printf("%d " , p->data); 
+        p=p->next ; 
+    }
+ printf("\n"); 
+    
 }
 
+int main(){
+    struct node* first = NULL ; 
+    first=add_at_last(first , 4);
+    first=add_at_last(first , 2);
+    first=add_at_last(first , 1);
+    first=sort(first); 
+    display(first); 
+     struct node* first2 = NULL ; 
+    first2=add_at_last(first2 , 2);
+    first2=add_at_last(first2 , 6);
+    first2=add_at_last(first2 , 8);
+    first2=add_at_last(first2 , 11);
+    display(first2); 
+   
+ 
+    // struct node* first2 ; 
+    // first2 = add_to_empty(3);
+    // display(first2); 
+}
