@@ -40,3 +40,5 @@ Index
 18.Iterative and Recursive methods to measure the size of linked list 
 
 19.Iterative and Recursive search methods in Linked list 
+
+20.Reversing a singly linked list 
