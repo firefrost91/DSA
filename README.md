@@ -5,7 +5,7 @@ Index
 
 01.Bubble sort in Linked list and check_sort in Linked list
 
-02.Creating Linked list and inserting element at any given index 
+02.Creating Linked list and inserting element at any given index // CHECK 
 
 03.Insertion Sort 
 
