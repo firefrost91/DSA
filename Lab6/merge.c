@@ -21,22 +21,4 @@ void merge ( int A[] , int B[] , int n , int m, int C[]){
          k++; 
     } 
 }
-void display(int n , int C[]){
-    int i ;
-    for(i=0 ; i<n ; i++){
-        printf("%d  " , C[i]); 
-        }
-}
 
-int main(){
-    int A[5]={2,5,7,11,13};
-    int n = sizeof(A)/sizeof(int);
-    int B[3]={3,6,9};
-    int m = sizeof(B)/sizeof(int); 
-    int *C ; 
-    C=(int *)malloc(sizeof(int)*(m+n)); 
-    
-    merge( A, B , n , m , C ); 
-    //printf("%d" , C[0]);
-    display( 8 , C);
-}
