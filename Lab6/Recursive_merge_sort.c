@@ -1,9 +1,16 @@
-void Recursive_Merge_sort(int A[] , int l , int h ){
-    int mid ;
-    if(l<h){
-        mid=(l+h)/2; 
-       Recursive_Merge_sort(A , l , mid);
-       Recursive_Merge_sort(A , mid+1 , h);
-        merge(A , l , h);
-    }
-}
+#include <merge.h>
+void mergeSortRec(Element arr[],int l, int r){
+	if(r>l){
+		int mid = (l+r)/2;
+		mergeSortRec(arr,l,mid);
+		mergeSortRec(arr,mid+1,r);
+		Element newarr[r-l+1];
+
+		recspace += sizeof(int)+(r-l+1)*sizeof(Element);
+
+		merge(arr+l,mid-l+1,arr+mid+1,r-mid,newarr);
+		for(int i=0;i<r-l+1;i++){
+			arr[l+i]=newarr[i];
+		}
+
+
