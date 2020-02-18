@@ -46,3 +46,5 @@ Index
 21.To check if Linked list is palindrome or not 
 
 22.To find nth Node from end in a Linked list 
+
+23.Inserting an element in  a Max Heap 
