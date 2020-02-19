@@ -48,3 +48,5 @@ Index
 22.To find nth Node from end in a Linked list 
 
 23.Inserting an element in  a Max Heap 
+
+24.Insertion sort 
