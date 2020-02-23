@@ -50,3 +50,5 @@ Index
 23.Inserting an element in  a Max Heap 
 
 24.Insertion sort 
+
+25.Quick Sort with last element as pivot 
