@@ -54,3 +54,5 @@ Index
 25.Recursive Quick Sort with last element as pivot
 
 26.Recursive Quick sort with first element as pivot 
+
+27.Iterative Quicksort with last element as pivot 
