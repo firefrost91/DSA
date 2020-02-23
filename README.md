@@ -51,4 +51,6 @@ Index
 
 24.Insertion sort 
 
-25.Quick Sort with last element as pivot 
+25.Recursive Quick Sort with last element as pivot
+
+26.Recursive Quick sort with first element as pivot 
