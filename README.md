@@ -57,4 +57,4 @@ Index
 
 27.Iterative Quicksort with last element as pivot 
 
-28.Hybird of Insertion sort and Quicksort with explicit stack - Quicksort occurs till Stack size S and then insertion sort works .  
+28.Hybrid of Insertion sort and Quicksort with explicit stack - Quicksort occurs till Stack size S and then insertion sort works .  
