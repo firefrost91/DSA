@@ -58,3 +58,5 @@ Index
 27.Iterative Quicksort with last element as pivot 
 
 28.Hybrid of Insertion sort and Quicksort with explicit stack - Quicksort occurs till Stack size S and then insertion sort works .  
+
+29.Comparison of Running time between Insertio sort , Quicksort and Hybrid Quicksort with n partitions 
