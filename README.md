@@ -64,3 +64,5 @@ Index
 30.Sorted Insert in Linked list 
 
 31.Modulus Hashing 
+
+32.Linear hashing 
