@@ -62,3 +62,5 @@ Index
 29.Comparison of Running time between Insertion sort , Quicksort and Hybrid Quicksort with n partitions 
 
 30.Sorted Insert in Linked list 
+
+31.Modulus Hashing 
