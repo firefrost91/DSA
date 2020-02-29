@@ -66,3 +66,5 @@ Index
 31.Modulus Hashing 
 
 32.Linear hashing 
+
+33.Linear Probing - Hashing collision resolution 
